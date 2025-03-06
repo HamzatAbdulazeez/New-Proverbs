@@ -28,9 +28,9 @@ function Sidebar({ isOpen, toggleSidebar }) {
           {/* Navigation Links */}
           <nav className="space-y-2">
             <SidebarLink to="/dashboard" label="Dashboard" icon={<FaThLarge />} />
-            <SidebarLink to="/employees" label="Student/Employee" icon={<FaUser />} />
-            <SidebarLink to="/notifications" label="Notification" icon={<FaBell />} />
-            <SidebarLink to="/settings" label="Settings" icon={<FaCog />} />
+            <SidebarLink to="/dashboard/employees" label="Student/Employee" icon={<FaUser />} />
+            <SidebarLink to="/dashboard/notifications" label="Notification" icon={<FaBell />} />
+            <SidebarLink to="/dashboard/settings" label="Settings" icon={<FaCog />} />
           </nav>
 
           {/* Sign Out */}

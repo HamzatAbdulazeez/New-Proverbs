@@ -24,7 +24,7 @@ function Header({ toggleSidebar }) {
         
         {/* Add Proverb Button */}
         <button className="bg-[#BB5D06] text-white text-sm px-4 py-2 rounded-lg">
-          <Link to="/proverbs">Add Proverb</Link> 
+          <Link to="/dashboard/proverbs">Add Proverb</Link> 
         </button>
 
         {/* Profile Icon */}
